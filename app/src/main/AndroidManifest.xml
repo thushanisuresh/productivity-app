@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProductivityApp">
         <activity
+            android:name=".syllabus_view"
+            android:exported="false" />
+        <activity
+            android:name=".Syllabus_view"
+            android:exported="false" />
+        <activity
+            android:name=".Pastpapers"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
